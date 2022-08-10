@@ -56,7 +56,8 @@
     text-shadow: -1px 1px 3px white;
     color: rgb(2, 33, 40);
 }
-.container_left h3{
+
+.container_left h3 {
     margin: 0.6rem;
 }
 
@@ -69,7 +70,8 @@
     text-shadow: -1px 1px 3px white;
     color: rgb(2 33 40);
 }
-.container_right h3{
+
+.container_right h3 {
     margin: 0.6rem;
 }
 
@@ -106,24 +108,100 @@
     border-top: 1px solid #eaeaea;
     justify-content: center;
     align-items: center;
-  }
-  
-  .footer div {
+}
+
+.footer div {
     display: flex;
     align-content: center;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .footer p {
+}
+
+.footer p {
     margin: 0%;
     color: #eaeaea;
     text-shadow: -2px 3px 3px rgb(1 66 66);
     font-family: 'Gill Sans MT', Calibri, sans-serif;
     font-size: 1.5rem;
-  }
-  
-  .logo {
+}
+
+.logo {
     height: 1em;
     margin-left: 1.5rem;
-  }
+}
+
+
+@media (max-width: 900px) {
+
+    .main {
+        min-height: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .title {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .name {
+        margin: 0.5rem;
+        font-size: 2.2rem;
+    }
+
+    .country {
+        margin: 0.1rem;
+        font-size: 1.5rem;
+    }
+
+    .container {
+        margin: 1rem 8rem 0rem 8rem;
+    }
+
+    .container_left {
+        font-size: 1rem;
+    }
+    .container_right {
+        font-size: 1rem;
+    }
+    .backHome {
+        margin: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+    .footer {
+        display: flex;
+        padding: 2rem 0;
+        border-top: 1px solid #eaeaea;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer div {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer p {
+        margin: 0%;
+        color: #eaeaea;
+        text-shadow: -2px 3px 3px rgb(1 66 66);
+        font-family: 'Gill Sans MT', Calibri, sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        height: 1em;
+        margin-left: 1.5rem;
+    }
+
+}

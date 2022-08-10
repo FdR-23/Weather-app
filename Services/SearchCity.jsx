@@ -1,4 +1,4 @@
-const APIkey =  process.env.API_KEY
+const APIkey =  process.env.NEXT_PUBLIC_API_KEY
 
 import { addCard } from '../store/slices/cardsSlices.js'
 
@@ -25,6 +25,7 @@ function SearchCity(city) {
             }
             return dispatch(addCard(city))
         }else{
+            console.log("acaaaaaaaaaaaaaaaaaaaaaa", APIkey)
            alert("¡The city not found !")
         }
 

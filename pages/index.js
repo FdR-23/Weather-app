@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <p className={styles.title}>Wheater</p>
+        <p className={styles.title}>Weather</p>
       </main>
       <div className={styles.grid}>
 
