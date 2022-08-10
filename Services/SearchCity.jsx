@@ -1,4 +1,4 @@
-const {NEXT_PUBLIC_API_KEY} = process.env;
+const APIkey = process.env.NEXT_PUBLIC_API_KEY;
 
 import { addCard } from '../store/slices/cardsSlices.js'
 
@@ -6,7 +6,7 @@ import { addCard } from '../store/slices/cardsSlices.js'
 function SearchCity(city) {
 
     return async function (dispatch) {
-        const info = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${NEXT_PUBLIC_API_KEY}&units=metric`);
+        const info = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIkey}&units=metric`);
         const result = await info.json();
         if (result.name !== undefined) {
             const city = {
