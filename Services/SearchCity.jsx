@@ -1,4 +1,4 @@
-const APIkey = "e7bf97cc7349fa6877408e171616f985";
+const APIkey =  process.env.API_KEY
 
 import { addCard } from '../store/slices/cardsSlices.js'
 
