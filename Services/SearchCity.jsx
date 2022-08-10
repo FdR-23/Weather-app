@@ -1,4 +1,4 @@
-const APIkey = process.env.NEXT_PUBLIC_API_KEY;
+const APIkey = "e7bf97cc7349fa6877408e171616f985";
 
 import { addCard } from '../store/slices/cardsSlices.js'
 
