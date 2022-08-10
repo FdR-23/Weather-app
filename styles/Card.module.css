@@ -1,0 +1,92 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    border: 0.15rem solid #eaeaea;
+    border-radius: 15px;
+    width: 22vw;
+    max-height: 58vh;
+    margin: 1rem;
+    padding: 0.1rem;
+    background-color: rgb(255 255 255 / 46%);
+}
+
+.card:hover {
+    box-shadow: 0px 0px 14px 4px #eaeaea;
+}
+
+.name {
+    text-align: center;
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 2.5rem;
+    color: rgb(0 46 46);
+    text-shadow: -1px 2px 1px white;
+}
+
+.img_weather {
+    box-shadow: 0px 0px 10px 7px rgb(1 66 66 / 25%);
+    border-radius: 20%;
+    padding: 0rem;
+    margin: 0rem;
+    min-width: 9vw;
+    max-width: 10vw;
+}
+
+.country {
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 1.5rem;
+    color: rgb(0 46 46);
+    text-shadow: -1px 2px 3px white;
+}
+
+.temp {
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 1px 4px rgb(0 4 125);
+}
+
+
+.containter_bnb {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.containter_bnb button {
+    margin: 0 0.5rem 0 0.5rem;
+    cursor: pointer;
+    font-family: 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 1rem;
+    border: solid rgb(5 88 108) 0.15rem;
+}
+
+.details_bnb {
+    max-width: 8rem;
+    max-height: 4rem;
+    color: rgb(5 88 108);
+    background: rgb(206, 206, 216);
+    border-radius: 0.4rem;
+}
+.details_bnb:hover{
+    color: #eaeaea;
+    text-shadow: 1px 1px 6px #1a3def;
+    box-shadow: 0px 0px 14px 4px #1a3def;
+}
+
+.delete_bnb {
+    border-radius: 5rem;
+    color: rgb(212, 1, 1);
+    background: rgb(167, 167, 184);
+}
+
+.delete_bnb:hover{
+    color: #fe0505;
+    text-shadow: 1px 1px 6px #ff1212;
+    box-shadow: 0px 0px 14px 4px #ff0000;
+}
